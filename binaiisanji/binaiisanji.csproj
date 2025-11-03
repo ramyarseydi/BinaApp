@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E172A7B3-45BE-4A81-A51C-EC8E16D2A3BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>binaiisanji</RootNamespace>
+    <AssemblyName>binaiisanji</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BehComponents">
+      <HintPath>..\..\OneDrive-2021-05-25\PersianCalender\bin\Debug\BehComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiMessageBox">
+      <HintPath>..\..\..\..\Downloads\Compressed\message box\FarsiMessageBoxDLL\FarsiMessageBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clinicDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet5.cs">
+      <DependentUpon>clinicDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="formaddMedicAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formaddMedicAccess.Designer.cs">
+      <DependentUpon>formaddMedicAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formaddrespaccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formaddrespaccess.Designer.cs">
+      <DependentUpon>formaddrespaccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBackup.Designer.cs">
+      <DependentUpon>FormBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formchanegpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formchanegpassword.Designer.cs">
+      <DependentUpon>formchanegpassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formchangeusername.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formchangeusername.Designer.cs">
+      <DependentUpon>formchangeusername.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditIns.Designer.cs">
+      <DependentUpon>formEditIns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditPatient.Designer.cs">
+      <DependentUpon>formEditPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditSicknessCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditSicknessCost.Designer.cs">
+      <DependentUpon>formEditSicknessCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formInssicMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formInssicMenu.Designer.cs">
+      <DependentUpon>formInssicMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formInsurence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formInsurence.Designer.cs">
+      <DependentUpon>formInsurence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMainAdmin.Designer.cs">
+      <DependentUpon>formMainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="formFileOpening1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formFileOpening1.Designer.cs">
+      <DependentUpon>formFileOpening1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMainMedic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMainMedic.Designer.cs">
+      <DependentUpon>formMainMedic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPatientcosts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPatientcosts.Designer.cs">
+      <DependentUpon>formPatientcosts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRecovery.Designer.cs">
+      <DependentUpon>formRecovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formReminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formReminder.Designer.cs">
+      <DependentUpon>formReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formResp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formResp.Designer.cs">
+      <DependentUpon>formResp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSetting.Designer.cs">
+      <DependentUpon>formSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formshowIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formshowIncome.Designer.cs">
+      <DependentUpon>formshowIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSicknessCosts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSicknessCosts.Designer.cs">
+      <DependentUpon>formSicknessCosts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTurnRating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTurnRating.Designer.cs">
+      <DependentUpon>formTurnRating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMainReseption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMainReseption.Designer.cs">
+      <DependentUpon>formMainReseption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insurence.cs">
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Modelclinc.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modelclinc.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Modelclinc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Modelclinc.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modelclinc.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Nobat.cs">
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <Compile Include="patient.cs">
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <Compile Include="payment.cs">
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="formRecpetMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRecpetMenu.Designer.cs">
+      <DependentUpon>formRecpetMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptionIncome.cs">
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Session.cs" />
+    <Compile Include="SicknessCosts.cs">
+      <DependentUpon>Modelclinc.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formaddMedicAccess.resx">
+      <DependentUpon>formaddMedicAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formaddrespaccess.resx">
+      <DependentUpon>formaddrespaccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBackup.resx">
+      <DependentUpon>FormBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formchanegpassword.resx">
+      <DependentUpon>formchanegpassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formchangeusername.resx">
+      <DependentUpon>formchangeusername.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditIns.resx">
+      <DependentUpon>formEditIns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditPatient.resx">
+      <DependentUpon>formEditPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditSicknessCost.resx">
+      <DependentUpon>formEditSicknessCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formInssicMenu.resx">
+      <DependentUpon>formInssicMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formInsurence.resx">
+      <DependentUpon>formInsurence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMainAdmin.resx">
+      <DependentUpon>formMainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formFileOpening1.resx">
+      <DependentUpon>formFileOpening1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMainMedic.resx">
+      <DependentUpon>formMainMedic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.aa-DJ.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.aa-ER.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.aa.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMainReseption.resx">
+      <DependentUpon>formMainReseption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPatientcosts.resx">
+      <DependentUpon>formPatientcosts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRecovery.resx">
+      <DependentUpon>formRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formReminder.resx">
+      <DependentUpon>formReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formResp.resx">
+      <DependentUpon>formResp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSetting.resx">
+      <DependentUpon>formSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formshowIncome.resx">
+      <DependentUpon>formshowIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSicknessCosts.resx">
+      <DependentUpon>formSicknessCosts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTurnRating.resx">
+      <DependentUpon>formTurnRating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formRecpetMenu.resx">
+      <DependentUpon>formRecpetMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="clinicDataSet.xsc">
+      <DependentUpon>clinicDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet.xss">
+      <DependentUpon>clinicDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet1.xsc">
+      <DependentUpon>clinicDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet1.xss">
+      <DependentUpon>clinicDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet10.xsc">
+      <DependentUpon>clinicDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet10.xss">
+      <DependentUpon>clinicDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet11.xsc">
+      <DependentUpon>clinicDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet11.xss">
+      <DependentUpon>clinicDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet12.xsc">
+      <DependentUpon>clinicDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet12.xss">
+      <DependentUpon>clinicDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet13.xsc">
+      <DependentUpon>clinicDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet13.xss">
+      <DependentUpon>clinicDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet14.xsc">
+      <DependentUpon>clinicDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet14.xss">
+      <DependentUpon>clinicDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet15.xsc">
+      <DependentUpon>clinicDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet15.xss">
+      <DependentUpon>clinicDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet16.xsc">
+      <DependentUpon>clinicDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet16.xss">
+      <DependentUpon>clinicDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet2.xsc">
+      <DependentUpon>clinicDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet2.xss">
+      <DependentUpon>clinicDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet3.xsc">
+      <DependentUpon>clinicDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet3.xss">
+      <DependentUpon>clinicDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet4.xsc">
+      <DependentUpon>clinicDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet4.xss">
+      <DependentUpon>clinicDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet5.xsc">
+      <DependentUpon>clinicDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet5.xss">
+      <DependentUpon>clinicDataSet5.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="Modelclinc.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Modelclinc.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="clinicDataSet6.xsc">
+      <DependentUpon>clinicDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet6.xss">
+      <DependentUpon>clinicDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet7.xsc">
+      <DependentUpon>clinicDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet7.xss">
+      <DependentUpon>clinicDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet8.xsc">
+      <DependentUpon>clinicDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet8.xss">
+      <DependentUpon>clinicDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet9.xsc">
+      <DependentUpon>clinicDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="clinicDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicDataSet9.xss">
+      <DependentUpon>clinicDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Modelclinc.edmx.diagram">
+      <DependentUpon>Modelclinc.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Modelclinc.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Modelclinc.edmx</DependentUpon>
+      <LastGenOutput>Modelclinc.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Modelclinc.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Modelclinc.edmx</DependentUpon>
+      <LastGenOutput>Modelclinc.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="clinicModelStoreContainer" CdmEntityContainer="clinicEntities6">
+    <EntitySetMapping Name="login">
+      <EntityTypeMapping TypeName="clinicModel.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Lname" ColumnName="Lname" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Phone_number" ColumnName="Phone_number" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="insurence">
+      <EntityTypeMapping TypeName="clinicModel.insurence">
+        <MappingFragment StoreEntitySet="insurence">
+          <ScalarProperty Name="InsPersent" ColumnName="InsPersent" />
+          <ScalarProperty Name="InsID" ColumnName="InsID" />
+          <ScalarProperty Name="InsName" ColumnName="InsName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nobat">
+      <EntityTypeMapping TypeName="clinicModel.Nobat">
+        <MappingFragment StoreEntitySet="Nobat">
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="IDPatient" ColumnName="IDPatient" />
+          <ScalarProperty Name="IDNobat" ColumnName="IDNobat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="patient">
+      <EntityTypeMapping TypeName="clinicModel.patient">
+        <MappingFragment StoreEntitySet="patient">
+          <ScalarProperty Name="L_date" ColumnName="L_date" />
+          <ScalarProperty Name="F_date" ColumnName="F_date" />
+          <ScalarProperty Name="InsurenceID" ColumnName="InsurenceID" />
+          <ScalarProperty Name="File_number" ColumnName="File_number" />
+          <ScalarProperty Name="Explain" ColumnName="Explain" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Lname" ColumnName="Lname" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="payment">
+      <EntityTypeMapping TypeName="clinicModel.payment">
+        <MappingFragment StoreEntitySet="payment">
+          <ScalarProperty Name="PayInsurence" ColumnName="PayInsurence" />
+          <ScalarProperty Name="PatientID" ColumnName="PatientID" />
+          <ScalarProperty Name="PaymentDc" ColumnName="PaymentDc" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="PayID" ColumnName="PayID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SicknessCosts">
+      <EntityTypeMapping TypeName="clinicModel.SicknessCosts">
+        <MappingFragment StoreEntitySet="SicknessCosts">
+          <ScalarProperty Name="SicknessCosts1" ColumnName="SicknessCosts" />
+          <ScalarProperty Name="SicknessName" ColumnName="SicknessName" />
+          <ScalarProperty Name="SicknessID" ColumnName="SicknessID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReceptionIncome">
+      <EntityTypeMapping TypeName="clinicModel.ReceptionIncome">
+        <MappingFragment StoreEntitySet="ReceptionIncome">
+          <ScalarProperty Name="Income" ColumnName="Income" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

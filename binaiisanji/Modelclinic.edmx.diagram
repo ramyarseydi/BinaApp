@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4e9563572d434c4884f8e0d4a0cf8973" Name="Diagram1">
+        <EntityTypeShape EntityType="clinicModel.login" Width="1.625" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.insurence" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="clinicModel.Nobat" Width="1.5" PointX="7.875" PointY="9.75" />
+        <EntityTypeShape EntityType="clinicModel.patient" Width="1.5" PointX="5.625" PointY="6.125" />
+        <EntityTypeShape EntityType="clinicModel.payment" Width="1.5" PointX="7.875" PointY="7" />
+        <EntityTypeShape EntityType="clinicModel.SicknessCosts" Width="1.5" PointX="5.625" PointY="3.125" />
+        <AssociationConnector Association="clinicModel.INs_pat" />
+        <AssociationConnector Association="clinicModel.FK_Nobat_patient1" />
+        <AssociationConnector Association="clinicModel.FK_payment_patient" />
+        <AssociationConnector Association="clinicModel.FK_payment_SicknessCosts" />
+        <EntityTypeShape EntityType="clinicModel.ReceptionIncome" Width="1.5" PointX="1.375" PointY="4.5" />
+        <AssociationConnector Association="clinicModel.FK_ReceptionIncome_login" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

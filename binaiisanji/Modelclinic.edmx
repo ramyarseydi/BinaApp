@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="clinicModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="insurence">
+          <Key>
+            <PropertyRef Name="InsID" />
+          </Key>
+          <Property Name="InsName" Type="nvarchar" MaxLength="15" />
+          <Property Name="InsID" Type="int" Nullable="false" />
+          <Property Name="InsPersent" Type="int" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="Username" />
+          </Key>
+          <Property Name="Username" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Post" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Fname" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Lname" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Age" Type="int" Nullable="false" />
+          <Property Name="Phone_number" Type="nvarchar" MaxLength="11" Nullable="false" />
+          <Property Name="Gender" Type="nvarchar" MaxLength="6" Nullable="false" />
+          <Property Name="salary" Type="int" />
+        </EntityType>
+        <EntityType Name="Nobat">
+          <Key>
+            <PropertyRef Name="IDNobat" />
+          </Key>
+          <Property Name="IDNobat" Type="int" Nullable="false" />
+          <Property Name="IDPatient" Type="int" Nullable="false" />
+          <Property Name="Date" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Time" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="patient">
+          <Key>
+            <PropertyRef Name="File_number" />
+          </Key>
+          <Property Name="Fname" Type="nvarchar" MaxLength="20" />
+          <Property Name="Lname" Type="nvarchar" MaxLength="20" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Phone_Number" Type="nvarchar" MaxLength="15" />
+          <Property Name="Gender" Type="nvarchar" MaxLength="10" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="Explain" Type="nvarchar(max)" />
+          <Property Name="File_number" Type="int" Nullable="false" />
+          <Property Name="InsurenceID" Type="int" />
+          <Property Name="F_date" Type="nvarchar" MaxLength="25" />
+          <Property Name="L_date" Type="nvarchar" MaxLength="25" />
+        </EntityType>
+        <EntityType Name="payment">
+          <Key>
+            <PropertyRef Name="PayID" />
+          </Key>
+          <Property Name="PayID" Type="int" Nullable="false" />
+          <Property Name="Cost" Type="int" />
+          <Property Name="PaitentID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ReceptionIncome">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Income" Type="int" />
+        </EntityType>
+        <EntityType Name="SicknessCosts">
+          <Key>
+            <PropertyRef Name="SicknessID" />
+          </Key>
+          <Property Name="SicknessID" Type="int" Nullable="false" />
+          <Property Name="SicknessName" Type="nvarchar" MaxLength="50" />
+          <Property Name="SicknessCosts" Type="int" />
+        </EntityType>
+        <Association Name="FK_Nobat_patient1">
+          <End Role="patient" Type="Self.patient" Multiplicity="1" />
+          <End Role="Nobat" Type="Self.Nobat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="patient">
+              <PropertyRef Name="File_number" />
+            </Principal>
+            <Dependent Role="Nobat">
+              <PropertyRef Name="IDPatient" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_payment_patient">
+          <End Role="patient" Type="Self.patient" Multiplicity="1" />
+          <End Role="payment" Type="Self.payment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="patient">
+              <PropertyRef Name="File_number" />
+            </Principal>
+            <Dependent Role="payment">
+              <PropertyRef Name="PaitentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_payment_SicknessCosts">
+          <End Role="SicknessCosts" Type="Self.SicknessCosts" Multiplicity="0..1" />
+          <End Role="payment" Type="Self.payment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SicknessCosts">
+              <PropertyRef Name="SicknessID" />
+            </Principal>
+            <Dependent Role="payment">
+              <PropertyRef Name="Cost" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ReceptionIncome_login">
+          <End Role="login" Type="Self.login" Multiplicity="1" />
+          <End Role="ReceptionIncome" Type="Self.ReceptionIncome" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="login">
+              <PropertyRef Name="Username" />
+            </Principal>
+            <Dependent Role="ReceptionIncome">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="INs-pat">
+          <End Role="insurence" Type="Self.insurence" Multiplicity="0..1" />
+          <End Role="patient" Type="Self.patient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="insurence">
+              <PropertyRef Name="InsID" />
+            </Principal>
+            <Dependent Role="patient">
+              <PropertyRef Name="InsurenceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="clinicModelStoreContainer">
+          <EntitySet Name="insurence" EntityType="Self.insurence" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="login" EntityType="Self.login" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nobat" EntityType="Self.Nobat" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="patient" EntityType="Self.patient" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="payment" EntityType="Self.payment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ReceptionIncome" EntityType="Self.ReceptionIncome" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SicknessCosts" EntityType="Self.SicknessCosts" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Nobat_patient1" Association="Self.FK_Nobat_patient1">
+            <End Role="patient" EntitySet="patient" />
+            <End Role="Nobat" EntitySet="Nobat" />
+          </AssociationSet>
+          <AssociationSet Name="FK_payment_patient" Association="Self.FK_payment_patient">
+            <End Role="patient" EntitySet="patient" />
+            <End Role="payment" EntitySet="payment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_payment_SicknessCosts" Association="Self.FK_payment_SicknessCosts">
+            <End Role="SicknessCosts" EntitySet="SicknessCosts" />
+            <End Role="payment" EntitySet="payment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ReceptionIncome_login" Association="Self.FK_ReceptionIncome_login">
+            <End Role="login" EntitySet="login" />
+            <End Role="ReceptionIncome" EntitySet="ReceptionIncome" />
+          </AssociationSet>
+          <AssociationSet Name="INs-pat" Association="Self.INs-pat">
+            <End Role="insurence" EntitySet="insurence" />
+            <End Role="patient" EntitySet="patient" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="clinicModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="Username" />
+          </Key>
+          <Property Name="Username" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Post" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Fname" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Lname" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+          <Property Name="Phone_number" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ReceptionIncome" Relationship="clinicModel.FK_ReceptionIncome_login" FromRole="login" ToRole="ReceptionIncome" />
+          <Property Name="salary" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="clinicEntities6" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="login" EntityType="Self.login" />
+          <EntitySet Name="insurence" EntityType="clinicModel.insurence" />
+          <EntitySet Name="Nobat" EntityType="clinicModel.Nobat" />
+          <EntitySet Name="patient" EntityType="clinicModel.patient" />
+          <EntitySet Name="payment" EntityType="clinicModel.payment" />
+          <EntitySet Name="SicknessCosts" EntityType="clinicModel.SicknessCosts" />
+          <AssociationSet Name="INs_pat" Association="clinicModel.INs_pat">
+            <End Role="insurence" EntitySet="insurence" />
+            <End Role="patient" EntitySet="patient" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Nobat_patient1" Association="clinicModel.FK_Nobat_patient1">
+            <End Role="patient" EntitySet="patient" />
+            <End Role="Nobat" EntitySet="Nobat" />
+          </AssociationSet>
+          <AssociationSet Name="FK_payment_patient" Association="clinicModel.FK_payment_patient">
+            <End Role="patient" EntitySet="patient" />
+            <End Role="payment" EntitySet="payment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_payment_SicknessCosts" Association="clinicModel.FK_payment_SicknessCosts">
+            <End Role="SicknessCosts" EntitySet="SicknessCosts" />
+            <End Role="payment" EntitySet="payment" />
+          </AssociationSet>
+          <EntitySet Name="ReceptionIncome" EntityType="clinicModel.ReceptionIncome" />
+          <AssociationSet Name="FK_ReceptionIncome_login" Association="clinicModel.FK_ReceptionIncome_login">
+            <End Role="login" EntitySet="login" />
+            <End Role="ReceptionIncome" EntitySet="ReceptionIncome" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="insurence">
+          <Key>
+            <PropertyRef Name="InsID" />
+          </Key>
+          <Property Name="InsName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="InsID" Type="Int32" Nullable="false" />
+          <Property Name="InsPersent" Type="Int32" />
+          <NavigationProperty Name="patient" Relationship="clinicModel.INs_pat" FromRole="insurence" ToRole="patient" />
+        </EntityType>
+        <EntityType Name="Nobat">
+          <Key>
+            <PropertyRef Name="IDNobat" />
+          </Key>
+          <Property Name="IDNobat" Type="Int32" Nullable="false" />
+          <Property Name="IDPatient" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Time" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="patient" Relationship="clinicModel.FK_Nobat_patient1" FromRole="Nobat" ToRole="patient" />
+        </EntityType>
+        <EntityType Name="patient">
+          <Key>
+            <PropertyRef Name="File_number" />
+          </Key>
+          <Property Name="Fname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Lname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="Phone_Number" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Explain" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="File_number" Type="Int32" Nullable="false" />
+          <Property Name="InsurenceID" Type="Int32" />
+          <Property Name="F_date" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="L_date" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="insurence" Relationship="clinicModel.INs_pat" FromRole="patient" ToRole="insurence" />
+          <NavigationProperty Name="Nobat" Relationship="clinicModel.FK_Nobat_patient1" FromRole="patient" ToRole="Nobat" />
+          <NavigationProperty Name="payment" Relationship="clinicModel.FK_payment_patient" FromRole="patient" ToRole="payment" />
+        </EntityType>
+        <EntityType Name="payment">
+          <Key>
+            <PropertyRef Name="PayID" />
+          </Key>
+          <Property Name="PayID" Type="Int32" Nullable="false" />
+          <Property Name="Cost" Type="Int32" />
+          <Property Name="PaitentID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="patient" Relationship="clinicModel.FK_payment_patient" FromRole="payment" ToRole="patient" />
+          <NavigationProperty Name="SicknessCosts" Relationship="clinicModel.FK_payment_SicknessCosts" FromRole="payment" ToRole="SicknessCosts" />
+        </EntityType>
+        <EntityType Name="SicknessCosts">
+          <Key>
+            <PropertyRef Name="SicknessID" />
+          </Key>
+          <Property Name="SicknessID" Type="Int32" Nullable="false" />
+          <Property Name="SicknessName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SicknessCosts1" Type="Int32" />
+          <NavigationProperty Name="payment" Relationship="clinicModel.FK_payment_SicknessCosts" FromRole="SicknessCosts" ToRole="payment" />
+        </EntityType>
+        <Association Name="INs_pat">
+          <End Type="clinicModel.insurence" Role="insurence" Multiplicity="0..1" />
+          <End Type="clinicModel.patient" Role="patient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="insurence">
+              <PropertyRef Name="InsID" />
+            </Principal>
+            <Dependent Role="patient">
+              <PropertyRef Name="InsurenceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Nobat_patient1">
+          <End Type="clinicModel.patient" Role="patient" Multiplicity="1" />
+          <End Type="clinicModel.Nobat" Role="Nobat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="patient">
+              <PropertyRef Name="File_number" />
+            </Principal>
+            <Dependent Role="Nobat">
+              <PropertyRef Name="IDPatient" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_payment_patient">
+          <End Type="clinicModel.patient" Role="patient" Multiplicity="1" />
+          <End Type="clinicModel.payment" Role="payment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="patient">
+              <PropertyRef Name="File_number" />
+            </Principal>
+            <Dependent Role="payment">
+              <PropertyRef Name="PaitentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_payment_SicknessCosts">
+          <End Type="clinicModel.SicknessCosts" Role="SicknessCosts" Multiplicity="0..1" />
+          <End Type="clinicModel.payment" Role="payment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SicknessCosts">
+              <PropertyRef Name="SicknessID" />
+            </Principal>
+            <Dependent Role="payment">
+              <PropertyRef Name="Cost" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ReceptionIncome">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Income" Type="Int32" />
+          <NavigationProperty Name="login" Relationship="clinicModel.FK_ReceptionIncome_login" FromRole="ReceptionIncome" ToRole="login" />
+        </EntityType>
+        <Association Name="FK_ReceptionIncome_login">
+          <End Type="clinicModel.login" Role="login" Multiplicity="1" />
+          <End Type="clinicModel.ReceptionIncome" Role="ReceptionIncome" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="login">
+              <PropertyRef Name="Username" />
+            </Principal>
+            <Dependent Role="ReceptionIncome">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="clinicModelStoreContainer" CdmEntityContainer="clinicEntities6">
+          <EntitySetMapping Name="login">
+            <EntityTypeMapping TypeName="clinicModel.login">
+              <MappingFragment StoreEntitySet="login">
+                <ScalarProperty Name="salary" ColumnName="salary" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Post" ColumnName="Post" />
+                <ScalarProperty Name="Fname" ColumnName="Fname" />
+                <ScalarProperty Name="Lname" ColumnName="Lname" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Phone_number" ColumnName="Phone_number" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="insurence">
+            <EntityTypeMapping TypeName="clinicModel.insurence">
+              <MappingFragment StoreEntitySet="insurence">
+                <ScalarProperty Name="InsPersent" ColumnName="InsPersent" />
+                <ScalarProperty Name="InsID" ColumnName="InsID" />
+                <ScalarProperty Name="InsName" ColumnName="InsName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nobat">
+            <EntityTypeMapping TypeName="clinicModel.Nobat">
+              <MappingFragment StoreEntitySet="Nobat">
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="IDPatient" ColumnName="IDPatient" />
+                <ScalarProperty Name="IDNobat" ColumnName="IDNobat" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="patient">
+            <EntityTypeMapping TypeName="clinicModel.patient">
+              <MappingFragment StoreEntitySet="patient">
+                <ScalarProperty Name="L_date" ColumnName="L_date" />
+                <ScalarProperty Name="F_date" ColumnName="F_date" />
+                <ScalarProperty Name="InsurenceID" ColumnName="InsurenceID" />
+                <ScalarProperty Name="File_number" ColumnName="File_number" />
+                <ScalarProperty Name="Explain" ColumnName="Explain" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Lname" ColumnName="Lname" />
+                <ScalarProperty Name="Fname" ColumnName="Fname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="payment">
+            <EntityTypeMapping TypeName="clinicModel.payment">
+              <MappingFragment StoreEntitySet="payment">
+                <ScalarProperty Name="PaitentID" ColumnName="PaitentID" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+                <ScalarProperty Name="PayID" ColumnName="PayID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SicknessCosts">
+            <EntityTypeMapping TypeName="clinicModel.SicknessCosts">
+              <MappingFragment StoreEntitySet="SicknessCosts">
+                <ScalarProperty Name="SicknessCosts1" ColumnName="SicknessCosts" />
+                <ScalarProperty Name="SicknessName" ColumnName="SicknessName" />
+                <ScalarProperty Name="SicknessID" ColumnName="SicknessID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ReceptionIncome">
+            <EntityTypeMapping TypeName="clinicModel.ReceptionIncome">
+              <MappingFragment StoreEntitySet="ReceptionIncome">
+                <ScalarProperty Name="Income" ColumnName="Income" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

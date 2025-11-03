@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="clinicModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="insurence">
+    <Key>
+      <PropertyRef Name="InsID" />
+    </Key>
+    <Property Name="InsName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="InsID" Type="Int32" Nullable="false" />
+    <Property Name="InsPersent" Type="Int32" />
+    <NavigationProperty Name="patient" Relationship="Self.FK_patient_insurence" FromRole="insurence" ToRole="patient" />
+  </EntityType>
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Username" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Post" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Fname" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Lname" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Phone_number" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="salary" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="login1" Relationship="Self.FK_login_login" FromRole="login" ToRole="login1" />
+    <NavigationProperty Name="login2" Relationship="Self.FK_login_login" FromRole="login1" ToRole="login" />
+    <NavigationProperty Name="ReceptionIncome" Relationship="clinicModel.FK_ReceptionIncome_login" FromRole="login" ToRole="ReceptionIncome" />
+  </EntityType>
+  <EntityType Name="Nobat">
+    <Key>
+      <PropertyRef Name="IDNobat" />
+    </Key>
+    <Property Name="IDNobat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDPatient" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="patient" Relationship="Self.FK_Nobat_patient1" FromRole="Nobat" ToRole="patient" />
+    <NavigationProperty Name="patient1" Relationship="clinicModel.FK_Nobat_patient11" FromRole="Nobat" ToRole="patient" />
+  </EntityType>
+  <EntityType Name="patient">
+    <Key>
+      <PropertyRef Name="File_number" />
+    </Key>
+    <Property Name="Fname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Lname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Phone_Number" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Explain" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="File_number" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="InsurenceID" Type="Int32" />
+    <Property Name="F_date" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="L_date" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="insurence" Relationship="Self.FK_patient_insurence" FromRole="patient" ToRole="insurence" />
+    <NavigationProperty Name="Nobat" Relationship="Self.FK_Nobat_patient1" FromRole="patient" ToRole="Nobat" />
+    <NavigationProperty Name="Nobat1" Relationship="clinicModel.FK_Nobat_patient11" FromRole="patient" ToRole="Nobat" />
+    <NavigationProperty Name="patient1" Relationship="clinicModel.FK_patient_patient" FromRole="patient" ToRole="patient1" />
+    <NavigationProperty Name="patient2" Relationship="clinicModel.FK_patient_patient" FromRole="patient1" ToRole="patient" />
+  </EntityType>
+  <EntityType Name="payment">
+    <Key>
+      <PropertyRef Name="PayID" />
+    </Key>
+    <Property Name="PayID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cost" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PatientID" Type="Int32" Nullable="false" />
+    <Property Name="PaymentDc" Type="Int32" Nullable="false" />
+    <Property Name="PayInsurence" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PayDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PayBypatient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ReceptionIncome">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Income" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Timer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="login" Relationship="clinicModel.FK_ReceptionIncome_login" FromRole="ReceptionIncome" ToRole="login" />
+  </EntityType>
+  <EntityType Name="SicknessCosts">
+    <Key>
+      <PropertyRef Name="SicknessID" />
+    </Key>
+    <Property Name="SicknessID" Type="String" Nullable="false" />
+    <Property Name="SicknessName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SicknessCosts1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_patient_insurence">
+    <End Role="insurence" Type="Self.insurence" Multiplicity="0..1" />
+    <End Role="patient" Type="Self.patient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="insurence">
+        <PropertyRef Name="InsID" />
+      </Principal>
+      <Dependent Role="patient">
+        <PropertyRef Name="InsurenceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_login_login">
+    <End Role="login" Type="Self.login" Multiplicity="1" />
+    <End Role="login1" Type="Self.login" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="login">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="login1">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nobat_patient1">
+    <End Role="patient" Type="Self.patient" Multiplicity="1" />
+    <End Role="Nobat" Type="Self.Nobat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="patient">
+        <PropertyRef Name="File_number" />
+      </Principal>
+      <Dependent Role="Nobat">
+        <PropertyRef Name="IDPatient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="clinicEntities7" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="insurence" EntityType="Self.insurence" />
+    <EntitySet Name="login" EntityType="Self.login" />
+    <EntitySet Name="Nobat" EntityType="Self.Nobat" />
+    <EntitySet Name="patient" EntityType="Self.patient" />
+    <EntitySet Name="payment" EntityType="Self.payment" />
+    <EntitySet Name="ReceptionIncome" EntityType="Self.ReceptionIncome" />
+    <EntitySet Name="SicknessCosts" EntityType="Self.SicknessCosts" />
+    <AssociationSet Name="FK_patient_insurence" Association="Self.FK_patient_insurence">
+      <End Role="insurence" EntitySet="insurence" />
+      <End Role="patient" EntitySet="patient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_login_login" Association="Self.FK_login_login">
+      <End Role="login" EntitySet="login" />
+      <End Role="login1" EntitySet="login" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nobat_patient1" Association="Self.FK_Nobat_patient1">
+      <End Role="patient" EntitySet="patient" />
+      <End Role="Nobat" EntitySet="Nobat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReceptionIncome_login" Association="clinicModel.FK_ReceptionIncome_login">
+      <End Role="login" EntitySet="login" />
+      <End Role="ReceptionIncome" EntitySet="ReceptionIncome" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nobat_patient11" Association="clinicModel.FK_Nobat_patient11">
+      <End Role="patient" EntitySet="patient" />
+      <End Role="Nobat" EntitySet="Nobat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_patient_patient" Association="clinicModel.FK_patient_patient">
+      <End Role="patient" EntitySet="patient" />
+      <End Role="patient1" EntitySet="patient" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_ReceptionIncome_login">
+    <End Type="clinicModel.login" Role="login" Multiplicity="1" />
+    <End Type="clinicModel.ReceptionIncome" Role="ReceptionIncome" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="login">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ReceptionIncome">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nobat_patient11">
+    <End Type="clinicModel.patient" Role="patient" Multiplicity="1" />
+    <End Type="clinicModel.Nobat" Role="Nobat" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_patient_patient">
+    <End Type="clinicModel.patient" Role="patient" Multiplicity="1" />
+    <End Type="clinicModel.patient" Role="patient1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="patient">
+        <PropertyRef Name="File_number" />
+      </Principal>
+      <Dependent Role="patient1">
+        <PropertyRef Name="File_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

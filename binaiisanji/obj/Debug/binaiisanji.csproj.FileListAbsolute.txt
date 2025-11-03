@@ -1,0 +1,358 @@
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe.config
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\bin\Debug\binaiisanji.pdb
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Form1.resources
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Form2.resources
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.exe
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.pdb
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\bin\Debug\FarsiMessageBox.dll
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Form3.resources
+C:\Users\rasool\source\repos\binaiisanji\binaiisanji\obj\Debug\binaiisanji.main.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe.config
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\binaiisanji.pdb
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.exe
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.pdb
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\EntityFramework.dll
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\EntityFramework.xml
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Login_Form.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Login_Form.aa.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+E:\software\visual stadio\binaiisanji\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Login_Form.aa-DJ.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Login_Form.aa-ER.resources
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+E:\software\visual stadio\binaiisanji\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe.config
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\binaiisanji.pdb
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.xml
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.exe
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.pdb
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formMainAdmin.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formFileOpening1.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formFileOpening2.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formRecpetMenu.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-DJ.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-ER.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.aa.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formTurnRating.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formRecoery.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formReminder.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formShowIncome.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formBackup.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formSetting.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formchanegpassword.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formchangeusername.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formaddMedicAccess.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formaddrespaccess.resources
+C:\Users\Ramyar\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formPatientcosts.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formaddMedicAccess.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formaddrespaccess.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formBackup.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formchanegpassword.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formchangeusername.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formMainAdmin.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formFileOpening1.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formFileOpening2.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formPatientcosts.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formRecoery.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formReminder.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formSetting.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formShowIncome.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formTurnRating.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formRecpetMenu.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-DJ.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-ER.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.formLogin.aa.resources
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.exe
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.pdb
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe.config
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\binaiisanji.exe
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\binaiisanji.pdb
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.xml
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+C:\Users\rasool\Desktop\binaiisanji\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe.config
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\binaiisanji.pdb
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\EntityFramework.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\EntityFramework.xml
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddMedicAccess.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddrespaccess.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formBackup.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchanegpassword.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchangeusername.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formMainAdmin.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formFileOpening1.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formPatientcosts.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formReminder.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formSetting.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formShowIncome.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formTurnRating.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecpetMenu.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-DJ.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-ER.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.exe
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.pdb
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\bin\Debug\BehComponents.dll
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditIns.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditSicknessCost.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formInssicMenu.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddInsurence.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddSicknessCosts.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditPatient.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formResp.resources
+C:\Users\Ramyar\Desktop\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecovery.resources
+E:\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe.config
+E:\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe
+E:\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.pdb
+E:\bina\New folder (2)\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+E:\bina\New folder (2)\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+E:\bina\New folder (2)\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+E:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.dll
+E:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+E:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.xml
+E:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddMedicAccess.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddrespaccess.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.FormBackup.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchanegpassword.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchangeusername.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditIns.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditPatient.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditSicknessCost.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formInssicMenu.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddInsurence.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formMainAdmin.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formFileOpening1.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formPatientcosts.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecovery.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formReminder.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formResp.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formSetting.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formshowIncome.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddSicknessCosts.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formTurnRating.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecpetMenu.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-DJ.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-ER.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa.resources
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+E:\bina\New folder (2)\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+E:\bina\New folder (2)\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+E:\bina\New folder (2)\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.exe
+E:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.pdb
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe.config
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.pdb
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.xml
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.AssemblyReference.cache
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddMedicAccess.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddrespaccess.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.FormBackup.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchanegpassword.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchangeusername.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditIns.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditPatient.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditSicknessCost.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formInssicMenu.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddInsurence.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formMainAdmin.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formFileOpening1.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formPatientcosts.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecovery.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formReminder.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formResp.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formSetting.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formshowIncome.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddSicknessCosts.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formTurnRating.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecpetMenu.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-DJ.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-ER.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa.resources
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.exe
+E:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.pdb
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe.config
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.pdb
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.xml
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddMedicAccess.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddrespaccess.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.FormBackup.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchanegpassword.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchangeusername.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditIns.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditPatient.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditSicknessCost.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formInssicMenu.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddInsurence.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formMainAdmin.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formFileOpening1.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formPatientcosts.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecovery.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formReminder.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formResp.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formSetting.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formshowIncome.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddSicknessCosts.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formTurnRating.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecpetMenu.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-DJ.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-ER.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa.resources
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.exe
+D:\UNI\my projects\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.pdb
+D:\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe.config
+D:\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.exe
+D:\bina\New folder (2)\binaiisanji\bin\Debug\binaiisanji.pdb
+D:\bina\New folder (2)\binaiisanji\bin\Debug\aa-DJ\binaiisanji.resources.dll
+D:\bina\New folder (2)\binaiisanji\bin\Debug\aa-ER\binaiisanji.resources.dll
+D:\bina\New folder (2)\binaiisanji\bin\Debug\aa\binaiisanji.resources.dll
+D:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.dll
+D:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.dll
+D:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.xml
+D:\bina\New folder (2)\binaiisanji\bin\Debug\EntityFramework.SqlServer.xml
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csprojAssemblyReference.cache
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddMedicAccess.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formaddrespaccess.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.FormBackup.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchanegpassword.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formchangeusername.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditIns.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditPatient.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEditSicknessCost.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formInssicMenu.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddInsurence.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formMainAdmin.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formFileOpening1.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Form_Medic.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formEyeCLinicMain.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formPatientcosts.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecovery.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formReminder.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formResp.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formSetting.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formshowIncome.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formAddSicknessCosts.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formTurnRating.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.Properties.Resources.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formRecpetMenu.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-DJ.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa-ER.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.formLogin.aa.resources
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.GenerateResource.cache
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CoreCompileInputs.cache
+D:\bina\New folder (2)\binaiisanji\obj\Debug\aa-DJ\binaiisanji.resources.dll
+D:\bina\New folder (2)\binaiisanji\obj\Debug\aa-ER\binaiisanji.resources.dll
+D:\bina\New folder (2)\binaiisanji\obj\Debug\aa\binaiisanji.resources.dll
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.csproj.CopyComplete
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.exe
+D:\bina\New folder (2)\binaiisanji\obj\Debug\binaiisanji.pdb

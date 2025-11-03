@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="clinicModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'clinic.dbo.insurence' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="insurence">
+          <Property Name="InsName" Type="nvarchar" MaxLength="15" />
+          <Property Name="InsID" Type="int" />
+          <Property Name="InsPersent" Type="int" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'clinic.dbo.login' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="Username" />
+      <PropertyRef Name="Password" />
+      <PropertyRef Name="Post" />
+      <PropertyRef Name="Fname" />
+      <PropertyRef Name="Lname" />
+      <PropertyRef Name="Age" />
+      <PropertyRef Name="Phone_number" />
+      <PropertyRef Name="Gender" />
+    </Key>
+    <Property Name="Username" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Post" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Fname" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Lname" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Phone_number" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="3" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'clinic.dbo.patient' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="patient">
+          <Property Name="Fname" Type="nvarchar" MaxLength="15" />
+          <Property Name="Lname" Type="nvarchar" MaxLength="15" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Phone_Number" Type="nvarchar" MaxLength="11" />
+          <Property Name="Gender" Type="nvarchar" MaxLength="6" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="Explain" Type="nvarchar(max)" />
+          <Property Name="File_number" Type="int" />
+          <Property Name="Insurence" Type="nvarchar" MaxLength="15" />
+          <Property Name="F_date" Type="datetime" />
+          <Property Name="L_date" Type="datetime" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'clinic.dbo.SicknessCosts' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="SicknessCosts">
+          <Property Name="SicknessID" Type="int" />
+          <Property Name="SicknessName" Type="nvarchar" MaxLength="50" />
+          <Property Name="SicknessCosts" Type="int" />
+        </EntityType>-->
+  <EntityContainer Name="clinicModelStoreContainer">
+    <EntitySet Name="login" EntityType="Self.login" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [login].[Username] AS [Username], 
+    [login].[Password] AS [Password], 
+    [login].[Post] AS [Post], 
+    [login].[Fname] AS [Fname], 
+    [login].[Lname] AS [Lname], 
+    [login].[Age] AS [Age], 
+    [login].[Phone_number] AS [Phone_number], 
+    [login].[Gender] AS [Gender]
+    FROM [dbo].[login] AS [login]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
